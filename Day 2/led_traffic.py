@@ -22,7 +22,7 @@ while counter < 11: # While count is less than 11
     time.sleep(random.random()) # Wait random between 0 and 1
     
     # Amber ON
-    red.value(1) # OFF
+    red.value(1) # ON
     amber.value(1) # ON
     green.value(0) # OFF
     
